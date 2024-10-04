@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Provider store={userStore}>
-      <BrowserRouter>
+      <BrowserRouter basename="/my-ts-app">
         <App />
       </BrowserRouter>
     </Provider>
