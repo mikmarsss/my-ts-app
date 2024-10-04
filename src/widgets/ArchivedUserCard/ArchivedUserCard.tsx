@@ -27,7 +27,7 @@ const ArchivedUserCard: React.FC<UserCardProps> = ({ user }) => {
         <>
             <Container position={'relative'} width={"360px"} gap={'20px'} height={"168px"} backgroundColor={"#FDFDFD"} borderRadius={"16px"} display={"flex"} padding={"24px"}>
                 <Container width={"112px"} height={'120px'} borderRadius={'8px'} backgroundColor={'black'}>
-                    <Image src={vi} width={"100%"} height={"100%"} borderRadius={"8px"} filter={'grayscale(100%)'} />
+                    <Image src={vi} width={"100%"} height={"100%"} borderRadius={"8px"} filter={'grayscale(100%)'} objectFit="cover" />
                 </Container>
                 <Container display={'flex'} flexDirection={'column'} width={'180px'} height={'120px'} justifyContent={'space-between'}>
                     <Container display={'flex'} flexDirection={'column'} gap={'4px'}>
